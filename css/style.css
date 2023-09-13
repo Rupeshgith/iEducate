@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 230px;
+    height: 230px;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+   /* margin: 25px 15px;*/
+    justify-content: center;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgb(159, 156, 156);
+    border-radius: 43px;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list{
+    width: 70%;
+   /* background-color: black;*/
+    display: flex;
+    align-items: center;
+    
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+.nav-list a:hover{
+    color: grey;
+}
+.nav-list li{
+    list-style: none;
+    padding: 25px 30px;
+}
+.navright{
+    /*background-color: violet;*/
+    width: 30%;
+    text-align: right;
+    padding: 0px 23px;
+}
+#search{
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 9px;
+    border: 2px solid white;
+}
+.background{
+    background: rgba(0, 0, 0, 0.65) url('../img/city-image.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/*************************************   heading -- section  ****************************/
+
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   max-width: 50%;
+    margin: auto;
+    height: 75%;
+}
+.firsthalf{
+
+}
+.secondhalf img{
+    width: 185px;
+    height: 185px;
+    border-radius: 130px;
+    border: 5px solid rgb(159, 156, 156);
+}
+.text-big{
+    font-size: 40px;
+
+}
+.text-small{
+    font-size: 18px;
+    margin: 11px 0px;
+}
+.btn{
+    font-size: 19px;
+    padding: 6px 16px;
+    border: 2px solid white;
+    border-radius: 11px;
+    margin: 2px 7px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: white;
+    color: black;
+}
+.btn-sm{
+    border-radius: 9px;
+    padding: 3px 10px;
+    font-size: 16px;
+}
+/**********************  blogs*************************/
+
+.secright{
+    display: flex;
+    width: 80%;
+   /* height: 450px;*/
+    align-items: center;
+    margin: auto;
+    padding: 40px 20px;
+}
+.secleft{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    /*height: 450px;*/
+    align-items: center;
+    margin: auto;
+}
+.paras{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+.thumbnail img{
+    border: 2px solid rgb(66, 65, 65);
+    border-radius: 25px;
+    margin-top: 21px;
+}
+/************************* contacts*************************/
+
+.contact{
+    height: 550px;
+    background-color: rgb(231, 227, 227);
+}
+.text-center{
+    text-align: center;
+    font-size: 42px;
+    padding: 20px;
+    padding-bottom:10px ;
+}
+.form{
+    padding-right: 4%;
+    width: 75%;
+    margin: auto;
+}
+.form-input{
+    width: 100%;
+    padding: 6px 12px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 7px 0px;
+    font-size: 17px;
+}
+textarea{
+    height: 180px;
+    width: 1000px;
+}
+.btn-dark{
+    margin-left: 0px;
+    background-color: rgb(255, 252, 252);
+    color: #5d5c5c;
+    border: 2px solid #5d5c5c;
+    width: 90px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    font-size: 16px;
+}
+/********************** hamburger  ************************/
+.burger{
+    
+    display: inline;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+.line{
+    background-color: white;
+    width: 35px;
+    height: 4px;
+    margin: 4px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
